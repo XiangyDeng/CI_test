@@ -15,6 +15,7 @@ tasks:
 
     command: |
 
+## vnc 
 # ports:
 # # VNC
 #   - port: 5900

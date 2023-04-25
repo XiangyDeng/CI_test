@@ -25,11 +25,11 @@ RUN sudo apt-get update && \
         uuid \
         xvfb \
         zip \
+        ## netstat
         net-tools \
-        libboost-all-dev \
+        ## boost (asio)
+        libboost-all-dev \                  
     && sudo rm -rf /var/lib/apt/lists/*
 
-RUN cd ../
-RUN 
 
 
