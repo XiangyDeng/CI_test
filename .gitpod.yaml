@@ -1,0 +1,29 @@
+# This image is built with the command below:
+#
+# ```
+# docker build -f .gitpod/Dockerfile -t willdurand/gitpod-firefox-dev .
+# ```
+image: 
+  file: .gitpod.Dockerfile
+
+tasks:
+  # todo
+  - name: startup
+    before: |
+
+    init: |
+
+    command: |
+
+# ports:
+# # VNC
+#   - port: 5900
+#     onOpen: ignore
+# # VNC (web view)
+# # This is the port you should be using to interact with Firefox. It is a bit
+# # annoying to have it open at every workspace startup, though, so it is now
+# # ignored.
+#   - port: 6080
+#     onOpen: ignore
+
+
