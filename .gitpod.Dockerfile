@@ -29,4 +29,7 @@ RUN sudo apt-get update && \
         libboost-all-dev \
     && sudo rm -rf /var/lib/apt/lists/*
 
+RUN cd ../
+RUN 
+
 
