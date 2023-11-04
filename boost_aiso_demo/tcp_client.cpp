@@ -55,6 +55,7 @@ int main(int argc, char* argv[])
 
         cout << "failed!" << endl;
 
+        cout << "failed!" << endl;
 
 
         cout<<e.what()<<endl;
