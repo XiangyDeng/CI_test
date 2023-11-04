@@ -2,7 +2,7 @@
  * @Author: XiangyDeng 158812420@qq.com
  * @Date: 2023-04-25 10:12:15
  * @LastEditors: XiangyDeng 158812420@qq.com
- * @LastEditTime: 2023-04-25 10:18:33
+ * @LastEditTime: 2023-11-04 14:46:51
  * @FilePath: /CI_test/tcp_client.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -48,6 +48,12 @@ int main(int argc, char* argv[])
     catch (std::exception& e)
     {
         cout << "failed!" << endl;
+
+        cout << "failed!" << endl;
+
+        cout << "failed!" << endl;
+
+
         cout<<e.what()<<endl;
     }
 }
